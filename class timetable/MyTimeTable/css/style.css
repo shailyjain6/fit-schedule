@@ -1,0 +1,155 @@
+.main{
+  padding: auto;
+  margin: 2px;
+}
+
+
+body{
+     background-color: #e8ca84;
+}
+h1
+{
+  color:black;
+}
+p{
+  font-size: 20px;
+  margin-left: 5px;
+}
+a{
+text-decoration: none;
+font-size: 25px;
+color:rgb(6, 4, 4);
+
+}
+a:hover
+{
+  text-decoration: underline;
+  color:rgb(67, 38, 31);
+}
+#new
+{
+  font-size: 25px;
+  margin-left: 5px;
+  color:rgb(67, 38, 31);
+  
+}
+
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  background-color: #e0692e;
+  align-items: center;
+  padding-right: 20px;
+  justify-content: space-between;
+  top: 0px;
+  position: sticky;
+}
+.nav-right {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-left: auto;
+  width: 400px;
+  justify-content: space-between;
+  margin-left: 100px;
+}
+
+
+#span{
+  color:rgb(31, 19, 12);
+  
+}
+#bold{
+  text-decoration:underline;
+  font-weight: bolder;
+  font-size: 35px;
+}
+
+
+/* classes */
+
+.card {
+  border: 1px solid white;
+  height: 400px;
+  width: 450px;
+  margin-top: 50px;
+  background-color: white;
+  margin-left: 37%;
+}
+.card-btn {
+  display: block;
+  margin-top: 5px;
+  margin-left: 36%;
+  background-color: rgb(226, 131, 58);
+  color: white;
+  padding: 3px;
+  cursor: pointer;
+  width: 110px;
+}
+.prev {
+  background-color: rgb(226, 131, 58);
+  margin-top: 10px;
+  margin-left: 40%;
+  cursor: pointer;
+  width: 20px;
+}
+.next {
+  background-color: rgb(226, 131, 58);
+  margin-top: 10px;
+  margin-left: 30px;
+  cursor: pointer;
+  width: 20px;
+}
+#profile {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+#name {
+  text-align: center;
+  margin-top: 10px;
+  letter-spacing: 2px;
+}
+#title1 {
+  text-align: center;
+  margin-top: 10px;
+  letter-spacing: 2px;
+  color: rgb(91, 29, 116);
+}
+#review {
+  color: grey;
+  margin-top: 10px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+@media (max-width: 400px) {
+
+  
+
+  .start{
+      width: 50vw;
+    
+  }
+  .navbar{
+    width: 50vw;
+
+    font-size: 15px;
+    color:rgb(22, 11, 11);
+    letter-spacing: 2px;;
+  }
+}
+    
+  @media (max-width: 400px) {
+
+  .class-start{
+    width: 50vw;
+  }
+}
